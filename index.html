@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aravind Kumar Yedida -Resume/CV</title>
+
+    <!-- SEO OPTIMIZATION: Meta Tags -->
+    <meta name="description" content="Aravind Kumar Yedida, Aspiring Data Analyst specializing in SQL, Power BI, Excel, and data visualization. Experience in business intelligence and reporting.">
+    <meta name="keywords" content="Data Analyst, SQL, Power BI, Excel, Business Intelligence, Data Visualization, Resume, CV, Aravind Kumar Yedida">
+
+    <!-- Open Graph Tags (For social media sharing - IMPORTANT for LinkedIn) -->
+    <meta property="og:title" content="Aravind Kumar Yedida -Resume&CV">
+    <meta property="og:description" content="Aspiring Data Analyst specializing in SQL, Power BI, and Excel.">
+    <meta property="og:type" content="profile">
+    <!-- IMPORTANT: Update this URL to your final custom domain -->
+    <meta property="og:url" content="https://resume.aravindyedida.com/">
+
+    <!-- SCHEMA MARKUP (JSON-LD) for Search Engines -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Aravind Kumar Yedida",
+            "jobTitle": "Aspiring Data Analyst",
+            "url": "https://resume.aravindyedida.com/",
+            "email": "mailto:yaravind2001@gmail.com",
+            "alumniOf": [
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Andhra University College of Engineering"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Aditya Degree College, Kakinada"
+                }
+            ],
+            "knowsAbout": [
+                "SQL",
+                "Power BI",
+                "Excel",
+                "Data Visualization",
+                "Data Modelling",
+                "Business Intelligence"
+            ]
+        }
+    </script>
+
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Define the Inter font and ensure text is black on white */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1f2937; /* Dark Gray for main text */
+            line-height: 1.5;
+            padding: 0;
+            margin: 0;
+            /* Subtly textured background using a light gradient */
+            background-color: #f8fafc; /* Lightest gray fallback */
+            background-image: linear-gradient(to right, #f8fafc, #ffffff, #f8fafc);
+        }
+        /* Page container now uses full width on desktop for the design */
+        .resume-container {
+            max-width: 1100px; /* Adjusted max-width slightly for single column */
+            margin: 1rem auto; /* Added margin top/bottom to float the document */
+            padding: 2rem 1.5rem; /* Default padding for all screens */
+            /* Added white background, shadow, and rounded corners to make it pop against the gradient */
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 0.75rem;
+        }
+        /* Style for main section headings */
+        .section-heading {
+            color: #0d9488; /* Teal color for emphasis */
+            border-bottom: 2px solid #0d9488;
+            padding-bottom: 0.25rem;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+        }
+        /* Style for the title/contact bar - using a subtle line */
+        .header-bar {
+            border-bottom: 2px solid #1f2937;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        /* Custom list style */
+        .detail-list {
+            padding-left: 1rem;
+        }
+        .detail-list li::marker {
+            content: '• ';
+            color: #0d9488; /* Teal bullets */
+        }
+        /* Project/Experience titles for readability */
+        .job-title {
+            color: #1f2937;
+            font-weight: 700;
+        }
+        /* Ensure all links are black and underlined */
+        a {
+            color: #1f2937;
+            text-decoration: underline;
+        }
+        .github-link {
+            text-decoration: none; /* Do not underline GitHub links in project titles */
+            font-weight: 600;
+        }
+
+        /* Enforce single column and adjust padding for desktop */
+        @media (min-width: 1024px) {
+            .resume-container {
+                padding: 3rem 4rem; /* More generous desktop padding */
+            }
+            /* Remove grid styling to enforce single column */
+            .main-content {
+                display: block;
+            }
+        }
+
+        /* Adjust container margins for smaller screens */
+        @media (max-width: 640px) {
+            .resume-container {
+                margin: 1rem auto;
+                padding: 1.5rem 1rem;
+                border-radius: 0; /* Remove rounded corners on small mobile for full edge-to-edge feel */
+            }
+        }
+
+        /* PRINT STYLES: Ensure clean PDF output */
+        @media print {
+            body {
+                background: #ffffff; /* White background for print */
+            }
+            .resume-container {
+                box-shadow: none; /* Remove shadow when printing */
+                margin: 0;
+                padding: 0;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="resume-container">
+    <div class="flex items-center justify-between space-x-4 mb-4 print:hidden">
+        <!-- Back Button -->
+        <a href="https://www.aravindyedida.com" class="flex items-center text-teal-700 hover:text-teal-600 font-semibold text-sm">
+            <span class="mr-2">←</span>
+            <span>Back</span>
+        </a>
+
+        <!-- Right side: Date and Download -->
+        <div class="flex items-center space-x-4">
+            <span class="text-xs text-gray-500">Last Updated: November 2025</span>
+            <button onclick="window.print()" class="bg-teal-700 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-md hover:bg-teal-600 transition duration-150 ease-in-out">
+                Download CV (PDF)
+            </button>
+        </div>
+    </div>
+
+
+    <!--<div class="resume-container">-->
+
+    <!--    &lt;!&ndash; UTILITY BAR (Date and Download) - Hidden during print via print:hidden &ndash;&gt;-->
+    <!--    <div class="flex items-center justify-end space-x-4 mb-4 print:hidden">-->
+    <!--        &lt;!&ndash; Last Updated Date &ndash;&gt;-->
+    <!--        <span class="text-xs text-gray-500">Last Updated: November 2025</span>-->
+
+    <!--        &lt;!&ndash; Download Button &ndash;&gt;-->
+    <!--        <button onclick="window.print()" class="bg-teal-700 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-md hover:bg-teal-600 transition duration-150 ease-in-out">-->
+    <!--            Download CV (PDF)-->
+    <!--        </button>-->
+    <!--    </div>-->
+
+    <!-- HEADER / CONTACT INFORMATION -->
+    <header class="header-bar">
+        <h1 class="text-4xl font-extrabold mb-1 uppercase tracking-wider text-gray-900">Aravind Kumar Yedida</h1>
+        <div class="flex flex-wrap text-sm text-gray-700">
+            <span class="mr-6">
+                <a href="mailto:yaravind2001@gmail.com" class="hover:text-teal-600">yaravind2001@gmail.com</a>
+            </span>
+            <span class="mr-6">+91 6303259395</span>
+            <span class="mr-6">
+                <a href="https://www.linkedin.com/in/yaravindkumar/" target="_blank" class="hover:text-teal-600">LinkedIn</a>
+            </span>
+            <span class="mr-6">
+                <a href="https://github.com/yaravind007" target="_blank" class="hover:text-teal-600">GitHub</a>
+            </span>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT (Single Column) -->
+    <div class="main-content space-y-8">
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <section>
+            <h2 class="text-xl section-heading">Professional Summary</h2>
+            <p class="text-base text-gray-700">
+                Fresher with a strong interest in data analysis. Quick learner with good problem-solving abilities. Eager to contribute to a dynamic team, grow professionally,
+                and apply technical and analytical skills to real-world challenges.</p>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section>
+            <h2 class="text-xl section-heading">Key Projects</h2>
+
+            <!-- Project 1: SQL Insight -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-1">
+                    <h3 class="text-lg job-title">Consumer Goods Ad-hoc Insight (SQL)</h3>
+                    <p class="text-sm font-medium text-right">April 2025</p>
+                </div>
+                <p class="text-sm italic text-gray-700 mb-1">Atliq Hardware</p>
+                <ul class="text-sm detail-list list-disc ml-4 space-y-1">
+                    <li>Executed 10+ optimized SQL queries to deliver key business insights on sales trends, product growth, and customer behavior.</li>
+                    <li>Designed clear Power BI data visualizations, presenting actionable findings to top-level management for strategic decision-making.</li>
+                </ul>
+            </div>
+
+            <!-- Project 2: Power BI Dashboard -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-1">
+                    <h3 class="text-lg job-title">Business Insights 360 (Power BI) - <a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4YWM1MGItMGJiYi00ZDk5LTkzNzEtODdmZjc4NjQwZGU4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=aa294fe23e2b5cd4929f" target="_blank" class="github-link text-teal-700 hover:text-teal-500">[Live Dashboard]</a></h3>
+                    <p class="text-sm font-medium text-right">December 2024</p>
+                </div>
+                <p class="text-sm italic text-gray-700 mb-1">Brick & Mortar Business</p>
+                <ul class="text-sm detail-list list-disc ml-4 space-y-1">
+                    <li>Built a multi-functional Power BI dashboard, integrating data from Excel, CSV, and SQL sources to analyze global sales trends.</li>
+                    <li>Optimized visualization load times by 5% using advanced DAX Studio queries, significantly enhancing user experience and report latency.</li>
+                </ul>
+            </div>
+
+            <!-- Project 3: P&L Report -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-1">
+                    <h3 class="text-lg job-title">P&L Report (Excel) - <a href="https://github.com/yaravind007/sales_finance_analytics" target="_blank" class="github-link text-teal-700 hover:text-teal-500">[GitHub]</a></h3>
+                    <p class="text-sm font-medium text-right">November 2024</p>
+                </div>
+                <p class="text-sm italic text-gray-700 mb-1">Brick & Mortar and E-Commerce</p>
+                <ul class="text-sm detail-list list-disc ml-4 space-y-1">
+                    <li>Streamlined data cleaning processes using Excel's Power Query, resulting in 4 hours of saved manual work weekly and improved operational efficiency.</li>
+                    <li>Enhanced report accuracy by 30% through DAX-based calculations, guiding a comprehensive financial strategy.</li>
+                </ul>
+            </div>
+
+            <!-- Project 4: AI/ML Project -->
+            <div class="mb-4">
+                <div class="flex justify-between items-start mb-1">
+                    <h3 class="text-lg job-title">Image Caption Generator (Python) - <a href="https://github.com/yaravind007/ImageCaptionGenerator" target="_blank" class="github-link text-teal-700 hover:text-teal-500">[GitHub]</a></h3>
+                    <p class="text-sm font-medium text-right">August 2024</p>
+                </div>
+                <p class="text-sm italic text-gray-700 mb-1">Academic Project</p>
+                <ul class="text-sm detail-list list-disc ml-4 space-y-1">
+                    <li>Created an interactive web application using Streamlit and Gemini AI's Flash 1.5 model for generating accurate, context-aware image captions.</li>
+                    <li>Integrated a speech-to-text module to enhance accessibility for visually impaired users.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PUBLICATIONS -->
+        <section>
+            <h2 class="text-xl section-heading">Publications</h2>
+            <div class="mb-3">
+                <p class="text-sm font-medium">"Automated Image Captioning Using Gemini 1.5 Pro"</p>
+                <p class="text-xs italic text-gray-700">Published in IJCRT (Volume 12, Issue 8, August 2024) | <a href="https://ijcrt.org/papers/IJCRT2408190.pdf" class="text-teal-700 hover:text-teal-500 underline">Read Here</a></p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section>
+            <h2 class="text-xl section-heading">Skills Summary</h2>
+
+            <!-- Responsive two-column layout: single column on small screens, two columns on md+ -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 space-y-0">
+                <!-- Left column: Tools & Languages -->
+                <div>
+                    <p class="font-semibold text-sm mb-1">Tools & Languages</p>
+                    <p class="text-sm">
+                    <ul class="text-sm detail-list list-disc ml-4 space-y-1">
+                        <li>Advanced: Excel, Power BI</li>
+                        <li>Intermediate: SQL (Joins, Subqueries, Aggregation)</li>
+                        <li>Basic: Python, AI &amp; ML Concepts</li>
+                    </ul>
+                </div>
+
+                <!-- Right column: Core Competencies -->
+                <div>
+                    <p class="font-semibold text-sm mb-1 pt-0 md:pt-2 border-t md:border-t-0 border-gray-200">Core Competencies</p>
+                    <ul class="text-sm detail-list list-disc ml-4 space-y-1">
+                        <li>Data Cleaning and Visualization</li>
+                        <li>Data Modelling &amp; Dashboard Design</li>
+                        <li>Business Reporting &amp; Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section>
+            <h2 class="text-xl section-heading">Certifications</h2>
+
+            <div class="mb-3">
+                <div class="flex justify-between items-start mb-1">
+                    <h3 class="font-semibold text-base">Excel, Power BI & SQL</h3>
+                    <p class="text-sm font-medium text-right">2024</p>
+                </div>
+                <p class="text-sm italic text-gray-700 mb-1">Code Basics</p>
+                <p class="text-xs">Focused on Advanced Power Query, DAX Insights, and SQL performance tuning.</p>
+            </div>
+
+            <div class="mb-3">
+                <div class="flex justify-between items-start mb-1">
+                    <h3 class="font-semibold text-base">AI Ethics Basics</h3>
+                    <p class="text-sm font-medium text-right">2025</p>
+                </div>
+                <p class="text-sm italic text-gray-700 mb-1">Coursera</p>
+                <p class="text-xs">Covered Responsible AI design, Algorithmic fairness, and Ethical governance.</p>
+            </div>
+        </section>
+
+
+        <!-- EDUCATION HISTORY -->
+        <section>
+            <h2 class="text-xl section-heading">Education</h2>
+
+            <div class="mb-3">
+                <h3 class="font-semibold text-base">M.Sc. Computer Science</h3>
+                <div class="flex justify-between text-sm">
+                    <p class=" text-gray-700">Andhra University College of Engineering, Visakhapatnam | GPA 7.6</p>
+                    <p class="font-medium">Nov 2022 - Aug 2024</p>
+                </div>
+
+            </div>
+
+            <div class="mb-3">
+                <h3 class="font-semibold text-base">B.Sc. Computer Science</h3>
+                <div class="flex justify-between text-sm">
+                    <p class="text-gray-700">Aditya Degree College, Kakinada | GPA 7.1</p>
+                    <p class="font-medium">Jul 2019 - Aug 2022</p>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <h3 class="font-semibold text-base">AP State Board of Intermediate</h3>
+                <div class="flex justify-between text-sm">
+                    <p class="text-gray-700">Sri Chaitanya Junior College, Kakinada | GPA 6.5</p>
+                    <p class="font-medium">Jul 2017 - Jul 2019</p>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <h3 class="font-semibold text-base">Central Board of Secondary Education (CBSE)</h3>
+                <div class="flex justify-between text-sm">
+                    <p class="text-gray-700">Boon School, Kakinada | CGPA 8.8</p>
+                    <p class="font-medium">Jul 2016 - Jun 2017</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- OTHER ACTIVITIES (Renamed to Personal Interests for better fit) -->
+        <section>
+            <h2 class="text-xl section-heading">Interests</h2>
+            <ul class="text-sm detail-list list-disc ml-4 space-y-1">
+                <li>Blog Writing: Published 15+ technical articles on medium covering cybersecurity, data analytics, and programming.</li>
+                <li>Gaming: Enthusiastic about video games; enhances strategic thinking.</li>
+                <li>Applying AI services to develop personal solutions Integrating AI into daily life for time saving.</li>
+            </ul>
+        </section>
+
+    </div>
+</div>
+</body>
+</html>
